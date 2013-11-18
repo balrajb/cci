@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CCIObjects category="CciApps" exporttime="2013-09-03T09:37:48" parameterset="OnlineExport" structure="" systemid="ndx_ecotestndio" variant="WebExport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <object id="GLA3RFGH.1" kind="Article">
+    <attributes>
+      <attribute group="Graph" kind="integer" name="UseStatus">160</attribute>
+      <attribute group="Graph" kind="string" name="Name">Surburban London.ART.2</attribute>
+      <attribute group="ExtraInfo" kind="string" name="XPos">129582</attribute>
+      <attribute group="ExtraInfo" kind="string" name="YPos">154853</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Width">562344</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Height">2427445</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpFrom">Surburban London.ART_G0H3R3U9.1.xml</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpTextUid">493REPG</attribute>
+    </attributes>
+    <content>
+      <data format="text/xml" kind="Text">
+        <cci:ccitext xmlns:cci="urn:schemas-ccieurope.com" xmlns:ccit="http://www.ccieurope.com/xmlns/ccimltables" xmlns:ccix="http://www.ccieurope.com/xmlns/ccimlextensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-ccieurope.com cci.xsd">
+          <cci:head_kicker class="element" displayname="fly" name="head_kicker">
+            <cci:p>Suburban London</cci:p>
+          </cci:head_kicker>
+          <cci:head class="element" displayname="head" name="head">
+            <cci:p>Trouble in Metroland</cci:p>
+          </cci:head>
+          <cci:head_deck class="element" displayname="rubric" name="head_deck">
+            <cci:p>
+              <cci:dateline class="character" displayname="dateline" name="dateline">CROYDON</cci:dateline>London's suburbs and commuter towns are suffering from the growing gravitational pull of the inner city
+            </cci:p>
+          </cci:head_deck>
+          <cci:body class="element" displayname="body" name="body">
+            <cci:p>
+              <cci:zzzC class="character" displayname="zzzC" name="zzzC">C</cci:zzzC>ROYDON, on London's southern fringe, has never been chic. It is known for the “Croydon facelift”, a painfully awkward hairstyle, as well as for being the setting of “Peep Show”, a 
+              <cci:capitals class="character" displayname="scaps" name="capitals">TV</cci:capitals> sitcom featuring painfully awkward characters. The town has nonetheless seen better days. Between 2001 and 2011 it lost 20,000 jobs, or around 15% of the total. Its house prices remain 9% lower than they were five years ago. Though its leafy southern parts are full of affluent commuters, the northern half of the town increasingly resembles a poor part of inner London: discount stores and payday lenders predominate. Riots there in 2011 were as bad as anywhere in the city.
+            </cci:p>
+            <cci:p>Across London's suburban fringe and in some of the commuter towns ringing the capital, job growth has stagnated in the past decade as it has roared ahead in inner London (see chart). In places like Croydon and Romford, an east London suburb, office blocks are being demolished or converted to housing. In inner-city Canary Wharf, meanwhile, the number of jobs has quadrupled since 2001. London's economic growth is concentrated in the middle: it tends to spill only as far as central spots like Shoreditch and King's Cross. The trend may eventually turn the capital's social structure inside out.</cci:p>
+            <cci:p>This is a startling change, says Tony Travers of the London School of Economics. For almost a century—beginning roughly with the arrival of big American manufacturers such as Hoover and Ford in the 1930s—jobs spread across south-east England like spilt water. In the 1950s and 1960s many firms moved out of central London to offices at the edge of the city or in the new towns built around its edges, following an ever more suburbanised workforce. They were officially encouraged to do so: new office development in central London was briefly banned, while posters on the London underground advised firms to “move out before London costs strangle your business.”</cci:p>
+            <cci:p>Even a decade or two ago, one of the most dynamic business clusters in south-east England was beyond the western edge of London, along the 
+              <cci:capitals class="character" displayname="scaps" name="capitals">M4</cci:capitals> motorway. Now technology firms are leading the charge to the centre. Google will build its new British headquarters near King's Cross. In the 1990s it would probably have plumped for a business park, says Carl Potter of 
+              <cci:capitals class="character" displayname="scaps" name="capitals">GVA</cci:capitals>, a property firm. 
+              <cci:capitals class="character" displayname="scaps" name="capitals">O2</cci:capitals> and Nokia, both telecoms firms, have established new offices in central London. Construction of new out-of-town office space has fallen by around 90% since 2007, according to 
+              <cci:capitals class="character" displayname="scaps" name="capitals">GVA</cci:capitals>. 
+            </cci:p>
+            <cci:p>This shift in the city's economic balance is beginning to be mirrored socially. Overall, inner London remains far more deprived than suburbia. But Alasdair Rae, a demographer at the University of Sheffield, calculates that the gap narrowed greatly between 2004 and 2010. Gentrification is one reason, particularly in places like Hackney, where more people are moving in from other parts of Britain than are going the other way: a rarity for London. Another reason is that people who can no longer afford inner-London rents are moving to suburbia. House prices have risen much more in inner London in the past few years (see map).</cci:p>
+            <cci:p>Businesses are moving to the middle for several reasons, says Jon Neale, of Jones Lang LaSalle, a property consultancy. Planning is one: since the 1990s urban-renewal policies have made it easier to build in city centres. That has boosted Manchester and Birmingham as well as London at the expense of out-of-town office parks, which look increasingly dilapidated. The expansion in the night-time economy in the 1990s and 2000s made cities more pleasant places to work. Footloose businesses—particularly in the technology sector—rely more on being close to their clients and competitors than they used to, says Mr Neale.</cci:p>
+            <cci:subhead class="paragraph" displayname="xhead" name="subhead">
+              <cci:p>Abandoning the net curtains</cci:p>
+            </cci:subhead>
+            <cci:p>But perhaps the strongest force is social. Today's 20-somethings are marrying and having children later. Many more are university educated. They are less likely to drive—fewer 21- to 29-year-olds have driving licences than did so a decade ago—which makes offices that can be reached quickly by bike, bus or train far more desirable. All of this keeps them in cities, as do falling crime rates, lower pollution and better schools: three ways in which London has improved in recent years. Gentrification proves self-reinforcing, as new restaurants, bars and other businesses open to serve—and employ—gentrifiers.</cci:p>
+            <cci:p>In the inner city, that process has attracted more affluent professionals. Meanwhile, the suburbs are experiencing problems once distinct to the urban core. They remain popular, especially with aspirational Indian and African families. But as jobs disappear, their economic appeal diminishes. Commuting can be difficult, especially on lines that fill up with ever more commuters from farther afield. And the arrival of poorer incomers, displaced from the inner city by high property prices, irks existing residents. In Croydon, as in several outer-London boroughs, burglary rates have risen in recent years, defying an overall decline.</cci:p>
+            <cci:p>Croydon may well turn itself around. Its 1960s centre will soon be rebuilt to include an enormous shopping mall. The 
+              <cci:capitals class="character" displayname="scaps" name="capitals">MP</cci:capitals> for Croydon Central, Gavin Barwell, reckons that young professionals will want to move to bright new high-rise flats near the railway station. New transport infrastructure—in particular Crossrail—may boost suburbs such as Ealing and Ilford too, by bringing people quickly to new jobs in the centre. But the flow of jobs to the middle of London, and poor people to the suburbs, looks likely to continue. Perhaps that is no bad thing. Concentrated poverty created many of the inner city's problems in the first place. Even if London's poor become a little more spread out, the city as a whole could still end up richer.
+              <cci:z_sym_ufinish class="macro" displayname="ufinish" name="z_sym_ufinish"/>
+            </cci:p>
+          </cci:body>
+          <cci:mm_byline class="element" displayname="SourceNotes" name="mm_byline"/>
+        </cci:ccitext>
+      </data>
+    </content>
+    <parents>
+      <object id="GFI3R3ML.1" kind="Page">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Uid">FI3R3ML</attribute>
+          <attribute group="Graph" kind="string" name="SectionName">A</attribute>
+          <attribute group="Graph" kind="integer" name="Section">0</attribute>
+          <attribute group="Graph" kind="string" name="ProductNameCont">ECN</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">24-08-2030</attribute>
+          <attribute group="Graph" kind="string" name="ZoneCont">APSI</attribute>
+          <attribute group="Graph" kind="string" name="EditionCont">1</attribute>
+          <attribute group="Graph" kind="string" name="PageNameCont">BR2</attribute>
+        </attributes>
+      </object>
+    </parents>
+  </object>
+
+</CCIObjects>
