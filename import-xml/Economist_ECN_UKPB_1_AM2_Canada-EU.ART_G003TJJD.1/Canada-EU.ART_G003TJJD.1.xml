@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CCIObjects category="CciApps" exporttime="2013-11-04T12:11:30" parameterset="OnlineExport" structure="" systemid="ndx_ecoio" variant="WebExport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <object id="G003TJJD.1" kind="Article">
+    <attributes>
+      <attribute group="Graph" kind="integer" name="UseStatus">0</attribute>
+      <attribute group="Graph" kind="string" name="Name">Canada-EU.ART</attribute>
+      <attribute group="ExtraInfo" kind="string" name="XPos">129060</attribute>
+      <attribute group="ExtraInfo" kind="string" name="YPos">137289</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Width">1771361</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Height">2445013</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpFrom">Americas_SecCont_1_G003TJF7.1.xml</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpTextUid">003TLSI</attribute>
+    </attributes>
+    <content>
+      <data format="text/xml" kind="Text">
+        <cci:ccitext xmlns:cci="urn:schemas-ccieurope.com" xmlns:ccit="http://www.ccieurope.com/xmlns/ccimltables" xmlns:ccix="http://www.ccieurope.com/xmlns/ccimlextensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-ccieurope.com cci.xsd">
+          <cci:head_kicker class="element" displayname="fly" name="head_kicker">
+            <cci:p>The Canada-EU trade deal</cci:p>
+          </cci:head_kicker>
+          <cci:head class="element" displayname="head" name="head">
+            <cci:p>Atlantic accord</cci:p>
+          </cci:head>
+          <cci:head_deck class="element" displayname="rubric" name="head_deck">
+            <cci:p>
+              <cci:dateline class="character" displayname="dateline" name="dateline">OTTAWA</cci:dateline>
+            </cci:p>
+            <cci:p>A landmark agreement could show the way for future deals</cci:p>
+          </cci:head_deck>
+          <cci:body class="element" displayname="body" name="body">
+            <cci:p>
+              <cci:zzzT class="character" displayname="zzzT" name="zzzT">T</cci:zzzT>HE timing looked suspicious when Stephen Harper, Canada’s prime minister, flew to Brussels on October 17th to announce, alongside the head of the European Commission, that a long-awaited trade deal between Canada and the 
+              <cci:capitals class="character" displayname="scaps" name="capitals">EU</cci:capitals> had been struck in principle. Less than 24 hours earlier Mr Harper had unveiled his government’s plans for the coming year, and he had been expected to stick around to defend them. Meanwhile, a long-rumbling scandal over expenses-fiddling by senators had come to a head over the summer, and opposition parties were looking forward to grilling the prime minister now that parliament had finally resumed.
+            </cci:p>
+            <cci:p>The Comprehensive Economic and Trade Agreement (
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA</cci:capitals>) between Canada and the 
+              <cci:capitals class="character" displayname="scaps" name="capitals">EU</cci:capitals> is certainly being born in difficult political circumstances for Canada’s ruling Conservatives. Yet there is evidence to support Mr Harper’s claim that, once finalised, it will be “the biggest deal our country has ever made”.
+            </cci:p>
+            <cci:p>Canada has forged trade or investment pacts in the past with more important or populous trading partners than the 
+              <cci:capitals class="character" displayname="scaps" name="capitals">EU</cci:capitals>. In 1987 it cut the first of various deals with the United States, with whom it does most of its trade. Last year it signed a foreign-investment protection agreement with China, more than twice as populous as Europe. But no previous deal rivals the broad sweep of 
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA</cci:capitals>, which not only addresses conventional customs barriers—eliminating 99% of tariffs on both sides—but removes regulations in a host of other areas. Red tape constraining trade in services, international investment and public procurement has been snipped away. Labour regulations have been removed to ease intra-company transfers, making it quicker for oil firms to transfer staff from London or Paris to their tar-sands operations in Alberta, for instance.
+            </cci:p>
+            <cci:p>In a departure from past practice, Canada’s ten provincial governments were involved in the negotiations from the start, at the request of the Europeans, who realised that provincial buy-in was needed if the deal was to stick. That meant that Ontario and Quebec, home to most of Canada’s dairy farms, were not caught offguard by a small opening in Canada’s protected market to allow in almost 30,000 tonnes of European cheese a year, twice the current limit. Their demand for compensation from the federal government has already been granted in principle. “The road to acceptance has been well paved,” says Daniel Schwanen, a trade analyst at the C.D. Howe Institute, a business think-tank.</cci:p>
+            <cci:p>That does not mean the deal is unopposed. In spite of their compensation, dairy farmers are still frothing, and the Council of Canadians, a left-leaning citizens’ organisation, calls 
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA </cci:capitals>a “corporate-rights pact”. Jim Stanford, an economist at Unifor, a trade union, doubts the government’s claims that the deal will add 80,000 new jobs and boost Canadian 
+              <cci:capitals class="character" displayname="scaps" name="capitals">GDP </cci:capitals>by 0.6%; he fears jobs will be lost instead.
+            </cci:p>
+            <cci:p>The accord will also reduce Canada’s reliance on the United States, whose share of Canada’s trade has fallen in recent years as opportunities have grown elsewhere (see chart). And the negotiations over 
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA</cci:capitals> could be used as a template for future trade deals, most obviously the planned Transatlantic Trade and Investment Partnership between the United States and the 
+              <cci:capitals class="character" displayname="scaps" name="capitals">EU</cci:capitals>, discussion of which began in July.
+            </cci:p>
+            <cci:p>Canada’s New Democrats, the official opposition, say they are reserving judgment on 
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA</cci:capitals> until full details are released, which could take some months. The Liberals are broadly supportive. That is no surprise, since the idea has two powerful Liberal backers: Roy MacLaren, a former trade minister who raised the possibility of a European deal in 1994 and has pushed it as co-chair of the Canada Europe Roundtable for Business; and Jean Charest, a former premier of Quebec, who got other provincial leaders on board. It is to Mr Harper’s credit that he resisted partisan temptation to dump what started out as a Liberal idea.
+            </cci:p>
+            <cci:p>The prime minister needed to bring home a big deal to give some credibility to his promise to diversify Canadian trade. Barring some unforeseen upset, he has secured that and more by obtaining preferential access for Canada to the world’s largest single market. Whether 
+              <cci:capitals class="character" displayname="scaps" name="capitals">CETA</cci:capitals> will be enough to distract Canadians from the juicy expenses scandal in the Senate remains to be seen. 
+              <cci:z_sym_ufinish class="macro" displayname="ufinish" name="z_sym_ufinish"/>
+            </cci:p>
+          </cci:body>
+          <cci:mm_byline class="element" displayname="SourceNotes" name="mm_byline"/>
+        </cci:ccitext>
+      </data>
+    </content>
+    <parents>
+      <object id="G003TIPV.1" kind="Page">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Uid">003TIPV</attribute>
+          <attribute group="Graph" kind="string" name="SectionName">A</attribute>
+          <attribute group="Graph" kind="integer" name="Section">0</attribute>
+          <attribute group="Graph" kind="string" name="ProductNameCont">ECN</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">26-10-2013</attribute>
+          <attribute group="Graph" kind="string" name="ZoneCont">UKPB</attribute>
+          <attribute group="Graph" kind="string" name="EditionCont">1</attribute>
+          <attribute group="Graph" kind="string" name="PageNameCont">AM2</attribute>
+        </attributes>
+      </object>
+    </parents>
+    <children>
+      <object id="G003TLTE.73" kind="Text">
+        <attributes>
+          <attribute group="Graph" kind="integer" name="XPos">0</attribute>
+          <attribute group="Graph" kind="integer" name="YPos">0</attribute>
+          <attribute group="Graph" kind="integer" name="Version">73</attribute>
+          <attribute group="Graph" kind="string" name="Uid">003TLTE</attribute>
+          <attribute group="Graph" kind="dateTime" name="BL_ExportTime">1970-01-01T00:00:00+00:00</attribute>
+          <attribute group="Graph" kind="string" name="BL_Author"></attribute>
+          <attribute group="Graph" kind="string" name="BL_Corrections"></attribute>
+          <attribute group="Graph" kind="string" name="BL_InfoBox"></attribute>
+          <attribute group="Graph" kind="string" name="BL_Package"></attribute>
+          <attribute group="Graph" kind="string" name="BL_MainbarSidebar"></attribute>
+          <attribute group="Graph" kind="integer" name="BL_BreakingNews">0</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord1">-</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord2">-</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord3">-</attribute>
+          <attribute group="Graph" kind="string" name="Name">Canada-EU</attribute>
+          <attribute group="Graph" kind="integer" name="Order">1</attribute>
+          <attribute group="Graph" kind="string" name="ProductNameCont">ECN</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">26-10-2013</attribute>
+          <attribute group="Graph" kind="string" name="ZoneCont">UKPB</attribute>
+          <attribute group="Graph" kind="string" name="EditionCont">1</attribute>
+          <attribute group="Graph" kind="string" name="NewsRoom">Economist</attribute>
+          <attribute group="ExtraInfo" kind="string" name="XPos">129060</attribute>
+          <attribute group="ExtraInfo" kind="string" name="YPos">1419758</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Width">1771361</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Height">3692353</attribute>
+        </attributes>
+      </object>
+      <object id="G003TPVL.10" kind="Graphics">
+        <attributes>
+          <attribute group="Graph" kind="integer" name="Width">564440</attribute>
+          <attribute group="Graph" kind="integer" name="Height">546800</attribute>
+          <attribute group="Graph" kind="string" name="Matrix">1 0 0 1 0 0 0</attribute>
+          <attribute group="Graph" kind="integer" name="PixelHeight">0</attribute>
+          <attribute group="Graph" kind="integer" name="PixelWidth">0</attribute>
+          <attribute group="Graph" kind="string" name="Name">20131026_AMC623</attribute>
+          <attribute group="Graph" kind="integer" name="Order">1</attribute>
+          <attribute group="Graph" kind="integer" name="MountedHeight">548278</attribute>
+          <attribute group="Graph" kind="integer" name="MountedWidth">562336</attribute>
+          <attribute group="Graph" kind="string" name="MountedMatrix">1 0 0 1 0 0 0 546800 564440 1 0 0 1 0 0 0</attribute>
+          <attribute group="ExtraInfo" kind="string" name="XPos">733568</attribute>
+          <attribute group="ExtraInfo" kind="string" name="YPos">2017591</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Width">562337</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Height">548278</attribute>
+        </attributes>
+        <content>
+          <link format="image/jpeg" kind="" reference="Canada-EU.ART_G003TJJD.1+20131026_AMC623.jpg"/>
+        </content>
+      </object>
+    </children>
+  </object>
+
+</CCIObjects>
