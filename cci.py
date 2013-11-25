@@ -2,10 +2,9 @@ import copy
 import os
 import re
 from lxml import etree
-
-# import pdb
-# import elementtree.ElementTree as ET
-# import xml.etree.ElementTree as ETX
+from xml.dom.minidom import parseString
+import time
+from time import strftime
 
 ns = {
 	"cci": "urn:schemas-ccieurope.com",
@@ -21,7 +20,6 @@ tagMap = {
 def process(file):
 	try:
 		article = {}
-		# tree = ET.parse(file)
 		tree = etree.parse(file)
 
 		articleNode = tree.find("object[@kind='Article']")
@@ -30,21 +28,40 @@ def process(file):
 		ccitextNode = articleNode.find("content/data/cci:ccitext", namespaces=ns)
 		article['fly'] = getText(ccitextNode.find("*[@displayname='fly']"))
 		article['headline'] = getText(ccitextNode.find("*[@displayname='head']"))
-		article['location'] = getText(ccitextNode.find("*[@displayname='rubric']/*[@displayname='dateline']"))
+		article['location'] = getText(ccitextNode.find("*[@displayname='rubric']/*/*[@displayname='dateline']"))
 		if(article['location'] is None):
 			article['rubric'] = getText(ccitextNode.find("*[@displayname='rubric']/cci:p", namespaces=ns))
 		else:
-			article['rubric'] = ccitextNode.find("*[@displayname='rubric']/*[@displayname='dateline']", namespaces=ns).tail.strip()
+			ccitextTags = ccitextNode.findall("*[@displayname='rubric']/cci:p", namespaces=ns)
+			article['rubric'] = getText(ccitextTags[-1])
+
 		article['content'] = getContent(ccitextNode.find("cci:body", namespaces=ns))
 		article['correction'] = getContent(ccitextNode.find("*[@displayname='correction']", namespaces=ns))
+
+		# duKeyName and duKeyVersion
+		textNode = articleNode.find("children/*[@kind='Text']")
+		if(textNode is not None):
+			article['duKeyName'] = getText(textNode.find("*/*[@name='Name']"))
+			article['duKeyVersion'] = getText(textNode.find("*/*[@name='Version']"))
+
 		pageNode = articleNode.find("parents/*[@kind='Page']")
 		if(pageNode is not None):
 			sectionPage = getText(pageNode.find("*/*[@name='PageNameCont']"))
 			sectionParts = re.split("(\d+)", sectionPage)
+			# pubDate
+			pubDate = getText(pageNode.find("*/*[@name='PubDateCont']"))
+			pubDate = strftime("%Y%m%d", time.strptime(pubDate, "%d-%m-%Y"))
+
 			article['section'] = {
+				'positionSequence': sectionPage,
 				'name': sectionParts[0],
-				'page': sectionParts[1]
+				'page': sectionParts[1],
+				'pubDate': pubDate,
+				'editionArea': getText(pageNode.find("*/*[@name='ZoneCont']")),
+				'editionName': getText(pageNode.find("*/*[@name='ProductNameCont']"))
 			}
+
+		# Media/images.
 		photoNodes = articleNode.findall("children/*[@kind='Photo']")
 		if(photoNodes is not None):
 			article['images'] = []
@@ -107,11 +124,9 @@ def NoneToEmptyStr(d):
 				NoneToEmptyStr(i)
 	return d
 
-
 def toXml(article):
 	article = NoneToEmptyStr(copy.deepcopy(article))
-	ret = """
-<?xml version="1.0" encoding="ISO-8859-1"?>
+	ourput = """
 <!DOCTYPE nitf PUBLIC "http://www.nitf.org/dtds/nitf-x020-strict.dtd" "nitf-x020-strict.dtd">
 <nitf>
 	<head>
@@ -122,11 +137,11 @@ def toXml(article):
 		<meta name="PagesUS" content="44"/>
 		<docdata>
 			<doc-id id-string="5A426P3"/>
-			<du-key generation="73" key="Canada-EU"/>
+			<du-key generation="{duKeyVersion}" key="{duKeyName}"/>
 			<urgency ed-urg="0"/>
-			<date.issue norm="20131026"/>
+			<date.issue norm="{section[pubDate]}"/>
 		</docdata>
-		<pubdata date.publication="20131026" edition.area="UKPB" edition.name="ECN" name="The Economist Newspaper" position.section="AMERICAS" position.sequence="AM2" volume="409" number="8859" issue="1"/>
+		<pubdata date.publication="{section[pubDate]}" edition.area="{section[editionArea]}" edition.name="{section[editionName]}" name="The Economist Newspaper" position.section="{section[name]}" position.sequence="{section[positionSequence]}" volume="409" number="8859" issue="1"/>
 		<revision-history function="editor" name=""/>
 	</head>
 	<body>
@@ -155,7 +170,13 @@ def toXml(article):
 	</body>
 </nitf>
 		""".format(**article)
-	print(ret)
+
+	# Save to .art file.
+	# TODO : need to replace with fast library, for now using minidom
+	# because its quite easy to write however it can be very slow.
+	doc = parseString(ourput)
+	with open("foo.art", "w") as f:
+		f.write( doc.toxml('ISO-8859-1') )
 
 path = os.path.join(os.path.dirname(__file__), 'import-xml')
 
