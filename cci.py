@@ -25,6 +25,9 @@ def process(file):
 		articleNode = tree.find("object[@kind='Article']")
 		if(articleNode is None):
 			return None
+
+		importFileName = getText(articleNode.find("attributes/*[@name='Name']"))
+
 		ccitextNode = articleNode.find("content/data/cci:ccitext", namespaces=ns)
 		article['fly'] = getText(ccitextNode.find("*[@displayname='fly']"))
 		article['headline'] = getText(ccitextNode.find("*[@displayname='head']"))
@@ -49,8 +52,8 @@ def process(file):
 			sectionPage = getText(pageNode.find("*/*[@name='PageNameCont']"))
 			sectionParts = re.split("(\d+)", sectionPage)
 			# pubDate
-			pubDate = getText(pageNode.find("*/*[@name='PubDateCont']"))
-			pubDate = strftime("%Y%m%d", time.strptime(pubDate, "%d-%m-%Y"))
+			pubDateSimple = getText(pageNode.find("*/*[@name='PubDateCont']"))
+			pubDate = strftime("%Y%m%d", time.strptime(pubDateSimple, "%d-%m-%Y"))
 
 			article['section'] = {
 				'positionSequence': sectionPage,
@@ -60,6 +63,11 @@ def process(file):
 				'editionArea': getText(pageNode.find("*/*[@name='ZoneCont']")),
 				'editionName': getText(pageNode.find("*/*[@name='ProductNameCont']"))
 			}
+
+			if(importFileName is not None):
+				importFileName = os.path.splitext(importFileName)[0]
+				importFileName = importFileName.replace(" ", "_")
+				article['fileName'] = importFileName+'_'+pubDateSimple+'.art'
 
 		# Media/images.
 		photoNodes = articleNode.findall("children/*[@kind='Photo']")
@@ -126,7 +134,7 @@ def NoneToEmptyStr(d):
 
 def toXml(article):
 	article = NoneToEmptyStr(copy.deepcopy(article))
-	ourput = """
+	output = """
 <!DOCTYPE nitf PUBLIC "http://www.nitf.org/dtds/nitf-x020-strict.dtd" "nitf-x020-strict.dtd">
 <nitf>
 	<head>
@@ -170,18 +178,21 @@ def toXml(article):
 	</body>
 </nitf>
 		""".format(**article)
+	# print output
 
 	# Save to .art file.
 	# TODO : need to replace with fast library, for now using minidom
 	# because its quite easy to write however it can be very slow.
-	doc = parseString(ourput)
-	with open("foo.art", "w") as f:
+	doc = parseString(output)
+
+	with open(article['fileName'], "w") as f:
 		f.write( doc.toxml('ISO-8859-1') )
 
 path = os.path.join(os.path.dirname(__file__), 'import-xml')
 
 for root, subFolders, files in os.walk(path):
 	processedOne = False
+	counter = 0
 	for file in files:
 		if(len(subFolders) > 0):
 			continue
@@ -191,8 +202,10 @@ for root, subFolders, files in os.walk(path):
 			print(os.path.join(root, file))
 			article = process(os.path.join(root, file))
 			toXml(article)
-			# print(article)
-			processedOne = True
-			break
-	if(processedOne):
-		break
+			counter += 1
+			# If you like to process just one file, uncomment these lines.
+			# processedOne = True
+			# break
+	# if(processedOne):
+		# break
+	print counter, 'files have been processed.'

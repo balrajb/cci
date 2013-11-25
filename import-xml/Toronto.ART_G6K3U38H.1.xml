@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CCIObjects category="CciApps" exporttime="2013-11-15T12:46:24" parameterset="OnlineExport" structure="" systemid="ndx_ecoio" variant="WebExport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <object id="G6K3U38H.1" kind="Article">
+    <attributes>
+      <attribute group="Graph" kind="integer" name="UseStatus">128</attribute>
+      <attribute group="Graph" kind="string" name="Name">Toronto.ART</attribute>
+      <attribute group="ExtraInfo" kind="string" name="XPos">747625</attribute>
+      <attribute group="ExtraInfo" kind="string" name="YPos">541459</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Width">1152790</attribute>
+      <attribute group="ExtraInfo" kind="string" name="Height">2023380</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpFrom">Americas_SecCont_1_GRT3TR50.1.xml</attribute>
+      <attribute group="ExtraInfo" kind="string" name="JumpTextUid">6K3U391</attribute>
+    </attributes>
+    <content>
+      <data format="text/xml" kind="Text">
+        <cci:ccitext xmlns:cci="urn:schemas-ccieurope.com" xmlns:ccit="http://www.ccieurope.com/xmlns/ccimltables" xmlns:ccix="http://www.ccieurope.com/xmlns/ccimlextensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-ccieurope.com cci.xsd">
+          <cci:head_kicker class="element" displayname="fly" name="head_kicker">
+            <cci:p>Toronto's crack-smoking leader</cci:p>
+          </cci:head_kicker>
+          <cci:head class="element" displayname="head" name="head">
+            <cci:p>What to do with a drunken mayor?</cci:p>
+          </cci:head>
+          <cci:head_deck class="element" displayname="rubric" name="head_deck">
+            <cci:p>
+              <cci:dateline class="character" displayname="dateline" name="dateline">OTTAWA</cci:dateline>
+            </cci:p>
+            <cci:p>Rob Ford confesses to all manner of vices, but will not resign</cci:p>
+          </cci:head_deck>
+          <cci:body class="element" displayname="body" name="body">
+            <cci:p>
+              <cci:zzzA class="character" displayname="zzzA" name="zzzA">A</cci:zzzA>FTER months of denying allegations that he had smoked crack cocaine, Rob Ford, Toronto’s independent mayor since 2010, reversed course on November 5th, admitting that he had taken the drug about a year ago. His explanation, that it was “probably in one of my drunken stupors”, did little to help his case. The breathtaking announcement—one of the reporters present literally gasped—was followed by an emotional apology to Torontonians for embarrassing them and a promise not to light up again. But despite his contrition, Mr Ford made clear that he has no plans to resign. Indeed, he says he will run for re-election next year.
+            </cci:p>
+            <cci:p>That leaves Canada’s largest city with a problem. It is extremely difficult to remove a sitting mayor, even one who has confessed to drug and frequent alcohol abuse, unless he is convicted of a crime. The federal justice minister, Peter MacKay, suggested that Mr Ford “get help” with his personal problems, but said that the affair fell under provincial jurisdiction. Kathleen Wynne, the Ontario premier, said that although she was “concerned” about the antics at city hall she could do nothing and that the police would have to step in.</cci:p>
+            <cci:p>Officers have recovered the video that sparked the allegations against the mayor in May, when Gawker, a gossip website, and the
+              <cci:italic class="character" displayname="italic" name="italic">Toronto Star</cci:italic> saw the recording and reported that it showed Mr Ford smoking what looked like a crack pipe. Police say that the video, said to have been made by drug dealers who then tried to hawk it, does not contain enough evidence for a criminal charge. Nor can it be released publicly because it is evidence in an extortion case against a friend of Mr Ford’s which has yet to go to trial.
+            </cci:p>
+            <cci:p>Mr Ford has got out of plenty of scrapes before. In the past year he has successfully appealed against a judge’s ruling that he step down for violating conflict-of-interest laws, and denied a series of lesser allegations, from bottom-groping to racist slurring (in both senses of the word). He somehow remains popular. But the police investigation that turned up the video—found on a computer seized during a raid in search of guns and drugs—is not over yet. More charges could yet be laid.</cci:p>
+            <cci:p>For the time being Torontonians must suffer the jokes of comedians who have made the mayor the subject of endless cracks. Others compare him to Marion Barry, a former mayor of Washington,
+              <cci:capitals class="character" displayname="scaps" name="capitals">DC</cci:capitals>, who was filmed by the
+              <cci:capitals class="character" displayname="scaps" name="capitals">FBI</cci:capitals> smoking crack cocaine while in office in 1990 and subsequently jailed. (It did not prevent him from being elected again a few years later.) “I have nothing left to hide,” Mr Ford said during his apology. Embarrassed Torontonians can only hope that this time he is telling the truth.
+            </cci:p>
+          </cci:body>
+          <cci:mm_byline class="element" displayname="SourceNotes" name="mm_byline"/>
+        </cci:ccitext>
+      </data>
+    </content>
+    <parents>
+      <object id="GOT3TQUB.1" kind="Page">
+        <attributes>
+          <attribute group="Graph" kind="string" name="Uid">OT3TQUB</attribute>
+          <attribute group="Graph" kind="string" name="SectionName">A</attribute>
+          <attribute group="Graph" kind="integer" name="Page">62</attribute>
+          <attribute group="Graph" kind="integer" name="Section">0</attribute>
+          <attribute group="Graph" kind="string" name="ProductNameCont">ECN</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">09-11-2030</attribute>
+          <attribute group="Graph" kind="string" name="ZoneCont">UKPB</attribute>
+          <attribute group="Graph" kind="string" name="EditionCont">1</attribute>
+          <attribute group="Graph" kind="string" name="PageNameCont">AM2</attribute>
+        </attributes>
+      </object>
+    </parents>
+    <children>
+      <object id="G693U2MH.3" kind="Text">
+        <attributes>
+          <attribute group="Graph" kind="integer" name="XPos">0</attribute>
+          <attribute group="Graph" kind="integer" name="YPos">0</attribute>
+          <attribute group="Graph" kind="integer" name="Version">3</attribute>
+          <attribute group="Graph" kind="string" name="Uid">693U2MH</attribute>
+          <attribute group="Graph" kind="dateTime" name="BL_ExportTime">1970-01-01T00:00:00+00:00</attribute>
+          <attribute group="Graph" kind="string" name="BL_Author"></attribute>
+          <attribute group="Graph" kind="string" name="BL_Corrections"></attribute>
+          <attribute group="Graph" kind="string" name="BL_InfoBox"></attribute>
+          <attribute group="Graph" kind="string" name="BL_Package"></attribute>
+          <attribute group="Graph" kind="string" name="BL_MainbarSidebar"></attribute>
+          <attribute group="Graph" kind="integer" name="BL_BreakingNews">0</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord1">-</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord2">-</attribute>
+          <attribute group="Graph" kind="string" name="BL_MapWord3">-</attribute>
+          <attribute group="Graph" kind="string" name="Name">Toronto</attribute>
+          <attribute group="Graph" kind="integer" name="Order">2</attribute>
+          <attribute group="Graph" kind="integer" name="Page">0</attribute>
+          <attribute group="Graph" kind="string" name="ProductNameCont">ECN</attribute>
+          <attribute group="Graph" kind="string" name="PubDateCont">09-11-2030</attribute>
+          <attribute group="Graph" kind="string" name="ZoneCont">UKPB</attribute>
+          <attribute group="Graph" kind="string" name="EditionCont">1</attribute>
+          <attribute group="Graph" kind="string" name="NewsRoom">Economist</attribute>
+          <attribute group="ExtraInfo" kind="string" name="XPos">747621</attribute>
+          <attribute group="ExtraInfo" kind="string" name="YPos">1086222</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Width">1142251</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Height">1478767</attribute>
+        </attributes>
+      </object>
+      <object id="GFV3U29K.3" kind="Photo">
+        <attributes>
+          <attribute group="Graph" kind="integer" name="Width">1787160</attribute>
+          <attribute group="Graph" kind="integer" name="Height">881920</attribute>
+          <attribute group="Graph" kind="string" name="Matrix">1 0 0 1 0 0 0</attribute>
+          <attribute group="Graph" kind="integer" name="PixelHeight">1059</attribute>
+          <attribute group="Graph" kind="integer" name="PixelWidth">2146</attribute>
+          <attribute group="Graph" kind="string" name="Name">20301109_AMD001</attribute>
+          <attribute group="Graph" kind="integer" name="Order">1</attribute>
+          <attribute group="Graph" kind="integer" name="MountedHeight">494964</attribute>
+          <attribute group="Graph" kind="integer" name="MountedWidth">1166851</attribute>
+          <attribute group="Graph" kind="string" name="MountedMatrix">0.65291 0 0 0.65291 0 -42175 0 881920 1787160 1 0 0 1 0 0 0</attribute>
+          <attribute group="ExtraInfo" kind="string" name="XPos">733567</attribute>
+          <attribute group="ExtraInfo" kind="string" name="YPos">541459</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Width">1166852</attribute>
+          <attribute group="ExtraInfo" kind="string" name="Height">494964</attribute>
+        </attributes>
+      </object>
+    </children>
+  </object>
+
+</CCIObjects>
